@@ -1,0 +1,53 @@
+span {
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(50px);
+    display: inline-block;
+    
+}
+
+span.fade {
+    color: blue;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+.hackerpage img {
+    border-radius: 40%;
+    width: 650px;
+    height: 600px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    margin: auto; 
+    filter: contrast(150%);
+    filter: saturate(100%);
+    filter: drop-shadow(8px 8px 10px green);
+    float: left;
+    
+
+}
+
+     
+.hackerpage h1 {
+        color: #ff7777;
+        border: solid;
+            font-style: oblique;
+           margin: 50px 15px 40px 15px;
+           padding: 15px;
+           border-color: black;
+       background-color: brown;
+       width: 100%;
+    text-align: center;
+    align-items: center;
+    display: block;
+    font-size: 50px;
+    font-stretch: 10px;
+}
+body {
+    background: linear-gradient(45deg, lawngreen, green, darkgreen);
+    min-height: 100vh;
+    background: maroon url(hacker/hackimg.jpg) center center repeat;
+    background-size: cover;
+}

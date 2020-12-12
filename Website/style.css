@@ -1,0 +1,240 @@
+
+
+span {
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(50px);
+    display: inline-block;
+    
+}
+
+span.fade {
+    color: blue;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+figcaption {
+    font-size: 20px;
+    
+    }
+    
+        body { 
+            background: linear-gradient(45deg, white, black, darkgray, black, white);
+            
+                            }
+              
+          li {margin: 10px}
+              
+              ul li { display: inline;
+                text-align: center; 
+                margin: 10px auto 10px auto;
+                      
+            }
+              
+              .main figcaption { font-style: italic;
+                font-size: 30px;
+                color: yellow; 
+                text-align: center;
+                            }
+              
+              .main img {
+            border-radius: 40%;
+            width: 650px;
+            height: 600px;
+            padding: 10px 10px 10px 10px;
+            display: block;
+            margin: auto;
+            filter: drop-shadow(5px 5px 5px orange);
+            
+                    }
+            .main {
+                background-color: darkgreen;
+                margin: 0;
+                background: darkgreen url(Images/fire-burning.jpeg) center center repeat;
+                background-size: cover;
+                  
+                }
+            p {
+                font-size: 25px;
+                border: 5px solid   red;
+                background: linear-gradient( 90deg, red, darkorange, orange, yellow, orange, darkorange, red  );
+                filter: saturate(150%);
+                filter:contrast(150%);
+                text-align: center;
+    }
+            
+    
+             .c10 img {
+            border-radius: 40%;
+            width: 650px;
+            height: 600px;
+            padding: 10px 10px 10px 10px;
+            display: block;
+            margin: auto;
+            filter: drop-shadow( 15px 15px 15px silver);
+             
+        }
+            
+            .c10 { 
+            background: maroon url(Images/c10background.jpg) center center repeat; 
+                background-size: cover;
+        }
+            
+        .c10 figcaption { 
+                color: orange; 
+                font-size: 30px;
+                font-weight: bold; 
+    }
+        .c10 h2 {
+            color: lawngreen;
+              border: 5px solid #7777aa;
+              text-align: center;
+            font-size: 30px; }
+        .c10-2 img {
+            border-radius: 40%;
+            width: 650px;
+            height: 600px;
+            padding: 10px 10px 10px 10px;
+            display: block;
+            margin: auto;
+            filter: drop-shadow( 15px 15px 15px silver);
+            
+            
+            
+                    }
+        .c10-2 figcaption {
+        color: orange; 
+        font-weight: bold;
+        
+    }
+    .c10-2 ul, li {
+            text-align: center; }
+    .hacker {
+        background: maroon url(hacker/hackimg.jpg) center center repeat;
+        background-size: cover;
+    } 
+        
+    .hacker img{
+        border-radius: 40%;
+            width: 650px;
+            height: 600px;
+            padding: 10px 10px 10px 10px;
+            display: block;
+            margin: auto; 
+            filter: drop-shadow(10px 10px 10px green);
+            
+            
+        } 
+          
+        
+    .hacker figcaption {
+        font-weight: bold;
+        color: white;
+        font-size: 30px;
+        
+    }
+    
+        
+        
+    
+           
+         h1 {color: #ff7777;
+              border: solid;
+                  font-style: oblique;
+                 margin: 50px 15px 40px 15px;
+                 padding: 15px;
+                 border-color: black;
+             background-color: brown;
+             width: 100%;
+          text-align: center;
+          align-items: center;
+          display: block;
+          font-size: 50px;
+          font-stretch: 10px;
+             }
+                
+            .header p {
+            color: black;
+                  margin: 15px auto 30px 15px;
+            font-size: 125%;
+            font-weight: bold;
+            line-height: 20px;
+                          }
+              
+             h2 {
+          color: orange;
+              border: 5px solid #7777aa;
+              text-align: center;
+            font-size: 30px;
+                 z-index: 3;
+                        }
+             
+              input {
+            border-radius: 4px 4px 4px 4px;
+            text-align: center;
+            margin: 50px auto 0 auto;
+            
+                        
+                        }
+              
+        .RMH {
+            list-style-type: none;
+            padding: 5px;
+            font-style: italic;
+            border: 5px solid #332211;
+            text-decoration: underline;
+            background-color: #11ffff;
+            text-align: center;
+        }
+            
+            
+        .header {  background-color: orange; 
+            padding: 10px 10px 10px 10px;
+            background: orange url(images/fire.jpg) right right repeat;
+        }
+            
+        .fire { 
+            width: 400;
+            height: 400;
+            background: white url(Images/fire.jpg) right right repeat; 
+               
+        }
+            
+    
+        .main RMH { 
+            background-color: lawngreen;
+            width: 650px;
+    }
+    
+        
+    
+        a {
+            color: blue;
+            transition-property: color;
+            transition-duration: 0.0s;
+            transition-timing-function: ease;
+            transition-delay: 0.1s; 
+            text-align: center;
+            display: block;
+            font-size: 25px;
+        }
+        a:hover {
+            color: yellow; }
+    
+    footer { background-color: brown;
+            color: silver; 
+            font-size: 20px; 
+            width: 100px;
+            height: 15px;
+            margin: 5px auto 5px auto;
+            display: block;
+        padding: 10px;
+        text-align: center;
+        }
+
+        figure {
+            text-align: center;
+        }
+
+        
